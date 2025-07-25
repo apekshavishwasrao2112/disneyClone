@@ -1,0 +1,356 @@
+body
+{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{  
+ display: flex;
+ 
+ height: 100px;
+ background-color: black;
+ margin: auto ;
+ justify-content: space-between;
+ align-items: center;
+ padding: 30px 177px;
+ position: sticky;
+ top: 0px;
+ 
+ 
+ 
+}
+nav img{
+    position: absolute;
+    left: 335px;
+}
+span button{
+    padding: 21px;
+    width: 163px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba( 23, 23 , 23 ,0.9);
+    color: white;
+    font-family: Inter, sans-serif;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.eng{
+    margin: auto 45px;
+}
+  .log{
+    background-color: rgb(26, 26, 226);
+}
+header {
+    height: 1250px;
+     background-image: url(back.jfif);  
+    
+
+}
+
+
+
+
+header img{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 122px 136px;
+  float: left;
+ 
+   
+
+}
+
+.name {
+    font-size: 55px;
+    font-weight: 600;
+    font-family: Inter,  sans-serif;
+    color: white;
+    line-height: 48px;
+    margin: -21px 116px;
+    padding: 84px 141px;
+
+    
+}
+.off{
+    border: 0.1px solid rgb(48, 47, 47);
+    display: flow-root;
+    margin: 50px 136px;
+    border-radius: 10px;
+    background-color: rgba(3, 3, 3, 0.1);
+    max-width: 476px;
+ 
+}
+.off img{
+    float: left;
+    margin: 20px;
+  border: 0.0px solid  rgb(48, 47, 47);
+
+}
+.off :nth-child(2){
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Inter,  sans-serif;
+    color: white;
+    padding-top: 20px;
+   
+}
+.off :nth-child(3){
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Inter,  sans-serif;
+    color: white;
+    display: flow-root;
+  
+}
+.rate {
+    
+
+    display: grid;
+    grid-template-columns: 643px 255px 286px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    row-gap: 20px;
+     color: white;
+     font-size: 34px;
+    font-weight: 500;
+    font-family: Inter,  sans-serif;
+    justify-content: end;
+  
+}
+.btn{
+    float:right;
+    margin:-195px 246px;
+    text-align: right;
+    
+}
+.qy{
+    padding: 21px 132px;
+    border-radius: 45px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    font-weight: bolder;
+    font-family: Inter, sans-serif;
+    font-size: 35px;
+    margin: 42px 58px;
+   
+}
+.tw{
+    margin: 51px -56px;
+}
+ .tw button{
+    text-align: right;
+
+ 
+ }
+.sp{
+    color: rgb(248, 194, 155);
+    background-color: rgb(17, 16, 16);
+   text-align: start;
+    font-size: 30px;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 19px 237px 21px 8px;
+    cursor: pointer;
+}
+   .pre{
+    
+    background-color: rgb(17, 16, 16);
+    padding: 19px 237px 21px 8px;
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: start;
+    cursor: pointer;
+  
+   } 
+
+.con{
+  background-color: rgb(32, 144, 196);
+  color: white;
+  margin: -10px -104px;
+  padding: 20px 347px;
+  font-size: 35px;
+  border-radius: 11px;
+  cursor: pointer;
+
+}
+@media screen and (max-width: 1844px) {
+    .rate{
+        display: grid;
+        grid-template-columns: 550px 200px 200px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+        row-gap: 10px;
+         color: white;
+         font-size: 30px;
+        font-weight: 400;
+        font-family: Inter,  sans-serif;
+        justify-content: end;
+        flex-wrap: wrap;
+
+    }
+  
+    .name {
+        font-size: 45px;
+        font-weight: 400;
+        font-family: Inter,  sans-serif;
+        color: white;
+        line-height: 48px;
+        margin: -1px 67px;
+        padding: 84px 141px;
+        
+    }
+    .off{
+        border: 0.1px solid rgb(48, 47, 47);
+        display: flow-root;
+        margin: 11px 77px;
+        border-radius: 10px;
+        background-color: rgba(3, 3, 3, 0.1);
+        max-width: 476px;
+     
+    }
+            
+}
+
+@media screen and (max-width: 1396px) {
+    .rate{
+        display: grid;
+        grid-template-columns: 400px 100px 100px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+        row-gap: 10px;
+         color: white;
+         font-size: 25px;
+        font-weight: 200;
+        font-family: Inter,  sans-serif;
+        justify-content: end;
+        flex-wrap: wrap;
+
+    }
+    .btn{
+        flex-wrap: wrap;
+        float:right;
+        margin:-195px 114px;
+        text-align: right;
+        
+    }
+    .name {
+        font-size: 45px;
+        font-weight: 400;
+        font-family: Inter,  sans-serif;
+        color: white;
+        line-height: 48px;
+        margin: -14px 0px;
+        padding: 84px 141px;
+        
+    }
+    .off{
+     
+        margin: 50px 27px;
+       
+            
+}
+.qy{
+    padding: 22px 33px;
+    border-radius: 45px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    font-weight: 200;
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+    margin: -8px 21px;
+   
+}
+
+.sp{
+    
+    padding: 19px 76px 21px 8px;
+    
+}
+   .pre{
+    
+    
+    padding: 19px 76px 21px 8px;
+   
+  
+   } 
+   .con{
+   
+    margin: -10px -104px;
+    padding: 14px 179px;
+    font-size: 30px;
+   
+  }
+}
+
+
+
+@media screen and (max-width: 1148px) {
+    .rate{
+        display: grid;
+        grid-template-columns: 300px 50px 50px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+        row-gap: 5px;
+         color: white;
+         font-size: 22px;
+        font-weight: 100;
+        font-family: Inter,  sans-serif;
+        justify-content: end;
+        flex-wrap: wrap;
+
+    }
+    .btn{
+        flex-wrap: wrap;
+        float:right;
+        margin:-279px 98px;
+        text-align: right;
+        
+    }
+    .name {
+       
+        margin: -41px 0px;
+        padding: 84px 141px;
+       
+    }
+    .off{
+     
+        margin: 11px 14px;
+       
+            
+}
+header img{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 256px 29px;
+  float: left;
+}
+.qy{
+    padding: 22px 33px;
+    border-radius: 45px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    font-weight: 200;
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+    margin: -8px 21px;
+   
+}
+
+.sp{
+    
+    padding: 19px 76px 21px 8px;
+    
+}
+   .pre{
+    
+    
+    padding: 19px 76px 21px 8px;
+   
+  
+   } 
+   .con{
+   
+    margin: -10px -104px;
+    padding: 14px 179px;
+    font-size: 30px;
+   
+  }
+}
