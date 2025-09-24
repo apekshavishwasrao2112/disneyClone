@@ -4,12 +4,6 @@ Perfect 👍 Here’s a **professional README with badges** for your **Disney+ C
 
 # Disney+ Clone
 
-[![GitHub stars](https://img.shields.io/github/stars/apekshavishwasrao2112/disney-clone?style=social)](https://github.com/apekshavishwasrao2112/disney-clone/stargazers)
-[![GitHub forks](https://img.shields.io/github/forksapekshavishwasrao2112/disney-clone?style=social)](https://github.com/apekshavishwasrao2112/disney-clone/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/apekshavishwasrao2112/disney-clone)](https://github.com/apekshavishwasrao2112/disney-clone/issues)
-[![GitHub license](https://img.shields.io/github/license/apekshavishwasrao2112/disney-clone)](./LICENSE)
-
-
  🚀 Features
 
  🎥 Movie/TV show cards with posters
