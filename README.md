@@ -1,7 +1,3 @@
-Perfect 👍 Here’s a **professional README with badges** for your **Disney+ Clone project**. You can adjust the file names and features depending on what you’ve built.
-
----
-
 # Disney+ Clone
 
  🚀 Features
@@ -49,7 +45,3 @@ disney-clone/
 * Integrate with a movie API (e.g., TMDb) for real content.
 * Add a video player section for trailers.
 * Improve UI with dark mode toggle.
-
-
-
-Do you want me to also give you the **exact GitHub Pages setup steps** so you can deploy this Disney+ clone and share a live demo link?
